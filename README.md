@@ -1,16 +1,71 @@
-# React + Vite
+# 🎮 TicTacToe - Juego de Tres en Raya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</div>
 
-Currently, two official plugins are available:
+¡Bienvenido a TicTacToe! Un clásico juego de tres en raya desarrollado con React, Vite y Tailwind CSS. Este proyecto es perfecto para pasar el rato y desafiar a tus amigos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Características
 
-## React Compiler
+- **Interfaz intuitiva** y fácil de usar
+- **Diseño responsive** que se adapta a cualquier dispositivo
+- **Modo de dos jugadores** para jugar con amigos
+- **Sistema de turnos** claro y visual
+- **Indicador de ganador** automático
+- **Reinicio de partida** con un solo clic
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Cómo jugar
 
-## Expanding the ESLint configuration
+1. El jugador X comienza la partida
+2. Haz clic en cualquier casilla vacía para colocar tu ficha (X u O)
+3. El objetivo es alinear tres de tus fichas en horizontal, vertical o diagonal
+4. ¡El primer jugador en conseguirlo gana la partida!
+5. Si se llenan todas las casillas sin un ganador, es un empate
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tictactoe.git
+   cd tictactoe
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador en [http://localhost:5173](http://localhost:5173)
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://es.reactjs.org/) - Biblioteca de JavaScript para construir interfaces de usuario
+- [Vite](https://vitejs.dev/) - Herramienta de construcción de frontend
+- [Tailwind CSS](https://tailwindcss.com/) - Framework de CSS utilitario
+- [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de iconos
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request.
+
+## 📬 Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [tu@email.com](mailto:tu@email.com)
+
+---
+
+<div align="center">
+  Hecho con ❤️ por [Tu Nombre]
+</div>
