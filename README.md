@@ -65,10 +65,10 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 📬 Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [tu@email.com](mailto:tu@email.com)
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [gagodario1@gmail.com](mailto:gagodario1@gmail.com)
 
 ---
 
 <div align="center">
-  Hecho con ❤️ por [Tu Nombre]
+  Hecho con ❤️ por [Dario Gago]
 </div>
