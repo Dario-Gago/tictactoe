@@ -69,14 +69,14 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-500 via-pink-500 to-red-500 flex items-center justify-center p-4">
-      <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-md w-full">
-        <h1 className="text-4xl font-bold text-center mb-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4">
+      <div className="bg-gray-800 rounded-3xl shadow-2xl p-8 max-w-md w-full border border-gray-700">
+        <h1 className="text-4xl font-bold text-center mb-2 text-white">
           Tic Tac Toe
         </h1>
 
         <div className="text-center mb-6">
-          <div className="text-2xl font-semibold text-gray-800 mb-4">
+          <div className="text-2xl font-semibold text-white mb-4">
             {getStatus()}
           </div>
         </div>
@@ -88,17 +88,18 @@ const Home = () => {
               onClick={() => handleClick(index)}
               disabled={gameOver || cell !== null}
               className={`
-                aspect-square rounded-xl text-5xl font-bold
+                aspect-square rounded-lg text-5xl font-bold
                 transition-all duration-200 transform hover:scale-105
+                border-2 border-gray-600
                 ${
                   cell === null && !gameOver
-                    ? 'hover:bg-gray-100 cursor-pointer'
-                    : 'cursor-not-allowed'
+                    ? 'hover:bg-gray-700 cursor-pointer bg-gray-800 text-white border-gray-600'
+                    : 'cursor-not-allowed bg-gray-900 text-white border-gray-700'
                 }
                 ${
                   winningLine.includes(index)
-                    ? 'bg-gradient-to-br from-yellow-300 to-yellow-400'
-                    : 'bg-gray-50'
+                    ? 'bg-gradient-to-br from-gray-700 to-gray-600 text-yellow-300 border-yellow-400 border-2'
+                    : ''
                 }
                 ${cell === '🐱' ? 'text-blue-600' : 'text-red-600'}
                 shadow-md hover:shadow-lg
@@ -112,11 +113,9 @@ const Home = () => {
 
         <button
           onClick={resetGame}
-          className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-3 px-6 rounded-xl
-                     hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-200
-                     shadow-lg hover:shadow-xl"
+          className="w-full bg-gray-700 text-white py-3 px-6 rounded-xl font-semibold text-lg hover:bg-gray-600 transition-colors border border-gray-600"
         >
-          🔄 Nuevo Juego
+          Reiniciar Juego
         </button>
 
         <div className="mt-6 text-center text-sm text-gray-600">
