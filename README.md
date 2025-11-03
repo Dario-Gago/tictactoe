@@ -28,17 +28,20 @@
 ## 🛠️ Instalación
 
 1. Clona el repositorio:
+
    ```bash
-   git clone https://github.com/tu-usuario/tictactoe.git
+   git clone https://github.com/Dario-Gago/tictactoe.git
    cd tictactoe
    ```
 
 2. Instala las dependencias:
+
    ```bash
    npm install
    ```
 
 3. Inicia el servidor de desarrollo:
+
    ```bash
    npm run dev
    ```
